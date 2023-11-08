@@ -26,6 +26,10 @@ body{
   margin-top: 10rem !important;
 }
 
+.custom-feature-page{
+  padding: 6rem !important;
+}
+
 @media screen and (max-width: 550px) {
   .custom-desktop-title{
     font-size:2rem !important;
@@ -34,4 +38,8 @@ body{
 
 .custom-hr-1{
   margin-top: 2rem !important;
+}
+
+.custom-feature-page{
+  padding: 0rem !important;
 }
