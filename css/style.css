@@ -1,13 +1,11 @@
 /* Important */
-*{
-  padding: 0;
-  margin: 0;
-}
+
 
 body{
   font-family: 'Montserrat', sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-
 .custome-nav{
   background-color: #fff !important;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -47,18 +45,36 @@ body{
   padding-left: 8rem !important;
 }
 
+.custom-image1{
+  background-image: url(/src/images/mac.png ) !important;
+}
 
-/* 
-.custom-image-position{
-  margin-right: -16rem !important;
-} */
+.custom-image2{
+  background-image: url(/src/images/mac2.png ) !important;
+}
+
+
+.custom-image3{
+  background-image: url(/src/images/mac3.png ) !important;
+}
+
+
+.custom-image1, .custom-image2, .custom-image3{
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 70vh;
+  width: 100%;
+}
+
+.custom-image2{
+  background-position: right !important;
+}
+
 
 .custom-image-position1s{
-  margin-left: -16rem !important;
+  margin-left: -20rem !important;
 }
 
-.custom-blog-image{
-}
 
 .custom-action-content{
   padding-top: 10rem !important;
@@ -71,17 +87,25 @@ body{
   .custom-desktop-title{
     font-size:2rem !important;
   }
-}
 
-.custom-hr-1{
-  margin-top: 2rem !important;
-}
+  .custom-image1, .custom-image2, .custom-image3{
+    background-size: contain !important;
+    width: auto;
+    height: 25vh;
+    background-position: center !important;
+  }
+  
 
-.custom-feature-page{
-  padding: 0rem !important;
-}
+  .custom-hr-1{
+    margin-top: 2rem !important;
+  }
 
-.custom-blog-image{
-  width: 100%;
-}
+  .custom-feature-page{
+    padding: 0rem !important;
+  }
 
+  .custom-blog-image{
+    width: 100%;
+  }
+
+}
