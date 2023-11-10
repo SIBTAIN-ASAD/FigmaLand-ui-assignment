@@ -30,7 +30,44 @@ body{
   padding: 6rem !important;
 }
 
-@media screen and (max-width: 550px) {
+
+.custom-blog-main{
+  padding-top:2rem;
+}
+
+.custom-blog-main1s{
+  padding-top:2rem;
+}
+
+.custom-context-blog{
+  padding-left: 16rem !important;
+}
+
+.custom-context-blog1s{
+  padding-left: 8rem !important;
+}
+
+
+/* 
+.custom-image-position{
+  margin-right: -16rem !important;
+} */
+
+.custom-image-position1s{
+  margin-left: -16rem !important;
+}
+
+.custom-blog-image{
+}
+
+.custom-action-content{
+  padding-top: 10rem !important;
+  padding-bottom: 12rem !important;
+}
+
+
+
+@media screen and (max-width: 375px) {
   .custom-desktop-title{
     font-size:2rem !important;
   }
@@ -43,3 +80,8 @@ body{
 .custom-feature-page{
   padding: 0rem !important;
 }
+
+.custom-blog-image{
+  width: 100%;
+}
+
