@@ -83,7 +83,7 @@ body{
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1020px) {
   .custom-desktop-title{
     font-size:2rem !important;
   }
